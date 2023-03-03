@@ -48,7 +48,8 @@ img {
 /* LAYOUT */
 .container {
     /* width: 1140px; */
-    width: 100%;
+    /* width: 100%; */
+    max-width:1140px ; 
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -132,7 +133,7 @@ img {
  
  /* version tablet */
 @media screen and( max-width:768px) {
-    .lessons .col ,.steps .col, .why-us .col{
+    .lessons .col , .steps .col, .why-us .col{
         width: calc(100% / 2);
        
     }
